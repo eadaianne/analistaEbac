@@ -71,3 +71,13 @@
 > somar números pra mais de uma permissão (ex: rx = 5)   
    
 > **Exemplo:** chmod 755 a.txt | **chmod [num_user num_grupo num_outros]**
+
+## Gerenciamento de pacotes
+> Os comandos podem mudar a depender da distribuição de Linux sendo utilizada. Aqui serão utilizados os de Ubuntu.
+
+1. sudo apt update - lista pacotes que podem ser atualizados
+2. sudo apt upgrade - atualiza os pacotes
+3. sudo apt show [nome pacote] - informações sobre pacote
+4. sudo apt install [nome] - instala pacote. Se já instalado, sugere atualizações se houver.
+5. sudo apt autoremove - remove pacotes desnecessários.
+6. sudo apt remove [nome] - remove pacote.
